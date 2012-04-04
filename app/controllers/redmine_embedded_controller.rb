@@ -47,6 +47,15 @@ class RedmineEmbeddedController < ApplicationController
     
     if Redmine::MimeType.is_type?('image', path)
       send_file path, :disposition => 'inline', :type => Redmine::MimeType.of(path)
+    elsif path.match('/search/.*\.html$')
+      raw=File.read(path)
+      send_data raw, :disposition => 'inline', :type => "text/html", :streaming => "true"
+    elsif path.match('\.css$')
+      raw=File.read(path)
+      send_data raw, :disposition => 'inline', :type => "text/css", :streaming => "true"
+    elsif path.match('\.js$')
+      raw=File.read(path)
+      send_data raw, :disposition => 'inline', :type => "text/javascript", :streaming => "true"
     else
       embed_file path
     end
