@@ -6,6 +6,7 @@ li#searchli {
 div#MSearchBox {
     position: fixed;
     margin-top: -2px;
+    margin-right: 50px;
 }
 
 div#MSearchBox .left
