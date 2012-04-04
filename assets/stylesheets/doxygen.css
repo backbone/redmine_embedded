@@ -7,3 +7,8 @@ div#MSearchBox {
     position: fixed;
     margin-top: -2px;
 }
+
+div#MSearchBox .left
+{
+    margin-top: -1px;
+}
