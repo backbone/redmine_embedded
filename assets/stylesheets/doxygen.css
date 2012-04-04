@@ -2,3 +2,8 @@ li#searchli {
         width: 0px;
         height: 0px;
 }
+
+div#MSearchBox {
+    position: fixed;
+    margin-top: -2px;
+}
