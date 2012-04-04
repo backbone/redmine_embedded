@@ -6,11 +6,19 @@ li#searchli {
 div#MSearchBox {
     position: fixed;
     margin-top: -2px;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 
 div#MSearchBox .left
 {
     margin-top: -1px;
     height:21px;
+}
+
+div#MSearchResultsWindow {
+    position: fixed;
+}
+
+div#MSearchSelectWindow {
+    position: fixed;
 }
