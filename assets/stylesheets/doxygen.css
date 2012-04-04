@@ -1,7 +1,4 @@
-/* Tabs margins */
-div.MSearchBoxInactive{
-	margin-top: +4em;
-}
 li#searchli {
-	margin-top: -12px;
+        width: 0px;
+        height: 0px;
 }
