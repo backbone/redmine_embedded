@@ -56,6 +56,9 @@ class RedmineEmbeddedController < ApplicationController
     elsif path.match('\.js$')
       raw=File.read(path)
       send_data raw, :disposition => 'inline', :type => "text/javascript", :streaming => "true"
+    elsif path.match('\.pdf$')
+      raw=File.read(path)
+      send_data raw, :disposition => 'inline', :type => "application/pdf", :streaming => "true"
     else
       embed_file path
     end
