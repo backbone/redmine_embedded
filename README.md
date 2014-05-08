@@ -1,3 +1,12 @@
+Fork of Embedded plugin (https://github.com/reubenmallaby/redmine_embedded).
+Correct style and search for all Doxygen versions.
+Setup:
+Index files: index.html
+Valid extensions: html png gif js css pdf
+Default template: doxygen.
+Menu caption: Doxygen
+
+
 Redmine  Embedded
 ================
 
