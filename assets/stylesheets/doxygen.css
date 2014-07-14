@@ -1,3 +1,13 @@
+/**
+ * Valadoc
+ */
+@import url("valadoc/wikistyle.css");
+@import url("valadoc/style.css");
+@import url("valadoc/valadoc_redmine.css");
+
+/**
+ * Doxygen
+ */
 li#searchli {
     width: 0px;
     height: 0px;

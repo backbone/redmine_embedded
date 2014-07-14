@@ -1,0 +1,38 @@
+.abstract_class,
+.brief_description,
+.class,
+.creation_method,
+.description,
+.enumvalue,
+.field,
+.interface,
+.lead_brief_description,
+.leaf_code_definition,
+.main_basic_type,
+.main_code_definition,
+.main_keyword,
+.main_keyword,
+.main_title,
+.main_title,
+.main_type,
+.main_type,
+.method,
+.method,
+.namespace_note,
+.navi_inline,
+.package,
+.package_note,
+.site_header,
+.site_navigation,
+.text,
+.togle,
+.togle_box,
+.virtual_method,
+.abrakadabra {
+	font-family: 'Times New Roman';
+	font-size: 12pt;
+}
+
+.navi_hr {
+	margin-left: 0px;
+}
