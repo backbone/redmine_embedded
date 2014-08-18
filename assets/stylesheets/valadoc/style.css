@@ -58,11 +58,12 @@ ul.external_link {
 }
 
 
+/* Comment to fix search window border in the Redmine header
 input {
 	border-color: #aaaaff;
 	border-style: solid;
 	border-width: 1px;
-}
+}*/
 
 
 
